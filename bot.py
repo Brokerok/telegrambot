@@ -11,7 +11,7 @@ def welcome(message):
     bot.send_sticker(message.chat.id, sti)
 
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    item1 = types.KeyboardButton('Пампушка')
+    item1 = types.KeyboardButton('Hello')
     item2 = types.KeyboardButton("Как дела?")
 
     markup.add(item1, item2)
